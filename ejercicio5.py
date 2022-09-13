@@ -30,13 +30,14 @@ def get_int():
     cadena=input()
     try:
         numero=int(cadena)
-        return numero
+        r = numero
     except ValueError:
         print("Error: Sólo se aceptan números enteros")
-        return get_int()
+        r = get_int()
     except Exception as error:
         print(f"Se produjo un error: {error}")
-        return get_int()
+        r = get_int()
+    return r
         
 print("")
 print("funcion recursiva")
