@@ -12,7 +12,6 @@ tanto por ciento. Crear los siguientes métodos para la clase:
  * El método mostrar() debe devolver el mensaje de “Cuenta Joven” y la bonificación de la
    cuenta.
 """
-from abc import ABC, abstractclassmethod
 from ejercicio7 import Cuenta
 
 class CuentaJoven(Cuenta):

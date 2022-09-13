@@ -11,10 +11,9 @@ opcional. Crear los siguientes métodos para la clase:
  * retirar(cantidad): se retira una cantidad a la cuenta. La cuenta puede estar en números rojos.
 """
 
-from abc import ABC, abstractclassmethod
 from ejercicio6 import Persona
 
-class Cuenta(ABC):
+class Cuenta:
     
     def __init__(self,titular=None,cantidad=0):
         if titular==None:

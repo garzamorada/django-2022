@@ -14,9 +14,9 @@ from math import floor
 
 def MCD(numero1,numero2): #Maximo comun divisor por metodo de euclides
     if (numero1 == 0):
-        return numero2
+        r =  numero2
     elif (numero2 == 0):
-        return numero1
+        r = numero1
     else:
         if (numero1 >= numero2):
             mayor = numero1
@@ -29,7 +29,8 @@ def MCD(numero1,numero2): #Maximo comun divisor por metodo de euclides
             resto = mayor - (menor * resultado)
             mayor = menor
             menor = resto
-        return mayor
+        r = mayor
+    return r
 
 
 def mcm(numero1,numero2): #minimo comun multiplo 

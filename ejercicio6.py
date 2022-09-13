@@ -6,10 +6,9 @@ siguientes métodos para la clase:
  * mostrar(): Muestra los datos de la persona.
  * Es_mayor_de_edad(): Devuelve un valor lógico indicando si es mayor de edad.
 """
-from abc import ABC,abstractmethod
 
 
-class Persona(ABC):
+class Persona:
 
     def valida_nombre(funcion):
         def validacion(*args, **kwargs):
